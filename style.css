@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --bg-black-900: #f2f2fc;
+  --bg-black-100: #f2f9ff;
+  --bg-black-50: #e8dfec;
+  --text-black-900: #302e4d;
+  --text-black-700: #504e70;
+  --skin--: rgb(189, 37, 37);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-image: url(images/black_white_suzuki_yamaha_hd_motorcycle-1920x1080.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: luminosity;
+  background-color: var(--bg-black-100);
+}
+
+.nav .nav-bar {
+  width: 25%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  background-color: #000000c9;
+  padding-top: 3.5%;
+}
+
+.nav .nav-bar img {
+  padding-right: 15px;
+}
+
+.nav .nav-bar li {
+  margin-bottom: 50px;
+  display: block;
+  border-bottom: 2px solid #504e70;
+  padding: 15px 0 15px 0;
+  margin-right: 40px;
+}
+
+.nav .nav-bar li a {
+  font-size: 25px;
+  font-weight: 600;
+  display: block;
+  color: whitesmoke;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+.nav .nav-bar li a span {
+  padding: 45px;
+}
+
+.nav .nav-bar li a:hover {
+  font-size: 29px;
+  font-weight: 600;
+  display: block;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+.nav .nav-bar li a.active {
+  color: var(--skin--);
+}
+
+.pad {
+  margin-left: 20px;
+}
+
+.nav .nav-bar li a i {
+  margin-right: 15px;
+}
+
+.main-home {
+  margin-left: 25%;
+}
+
+.padd-30 {
+  padding-left: 30px;
+}
+
+.title .container {
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.507);
+  padding: 10px;
+  margin-left: 700px;
+  margin-top: 40px;
+}
+
+.title a {
+  text-decoration: none;
+}
+
+.title .box {
+  display: flex;
+  padding: 10px 30px 10px 30px;
+  font-weight: 500;
+}
+
+.title .box .uno {
+  flex: 50%;
+  background-color: var(--skin--);
+  padding: 10px 25px 10px 25px;
+  margin-right: 40px;
+  color: white;
+}
+
+.title .box .dos {
+  flex: 50%;
+  background-color: white;
+  padding: 10px 25px 10px 25px;
+  margin-right: 40px;
+  color: var(--text-black-700);
+}
+
+.title .box .tres {
+  flex: 33.3%;
+  background-color: var(--skin--);
+  padding: 10px 25px 10px 25px;
+  margin-right: 40px;
+  color: white;
+}
+
+.title .box .quatro {
+  flex: 33.3%;
+  background-color: white;
+  padding: 10px 25px 10px 25px;
+  margin-right: 40px;
+  color: var(--text-black-700);
+}
+
+.title .box .cinco {
+  flex: 33.3%;
+  background-color: rgb(24, 69, 119);
+  padding: 10px 25px 10px 25px;
+  margin-right: 40px;
+  color: var(--bg-black-100);
+}
+
+.title .box .uno:hover {
+  background-color: rgb(114, 13, 13);
+}
+
+.title .box .dos:hover {
+  background-color: rgb(150, 150, 150);
+  color: white;
+}
+
+.title .box .tres:hover {
+  background-color: rgb(114, 13, 13);
+}
+
+.title .box .quatro:hover {
+  background-color: rgb(150, 150, 150);
+  color: white;
+}
+
+.title .box .cinco:hover {
+  background-color: rgb(14, 42, 75);
+}
+
+.title .container2 {
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.507);
+  padding: 10px;
+  margin-left: 140px;
+  margin-top: 50px;
+}
+
+.title .container3 {
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.507);
+  padding: 10px;
+  margin-left: 550px;
+  margin-top: 100px;
+}
+
+.title h1 {
+  font-size: 30px;
+  letter-spacing: 10px;
+  line-height: 50px;
+  color: rgb(255, 244, 244);
+  text-transform: capitalize;
+}
+
+.rubrics {
+  margin-top: 17%;
+  text-align: center;
+}
+
+.rubrics h1 {
+  font-size: 250%;
+  font-weight: 350;
+  color: rgb(86, 90, 94);
+}
+
+.rubrics .box {
+  display: flex;
+  padding: 0 300px 0 300px;
+  margin-bottom: 10%;
+}
+
+.rubrics .box .uno {
+  flex: 25%;
+  background-image: url(images/p1.jpg);
+  background-size: 100%;
+  margin-right: 15px;
+  background-repeat: no-repeat;
+  max-width: 25%;
+  max-height: 100%;
+}
+
+.rubrics .box .dos {
+  flex: 25%;
+  background-image: url(images/p2.jpg);
+  background-size: 100%;
+  margin: 0 15px 0 15px;
+  background-repeat: no-repeat;
+  max-width: 25%;
+  max-height: 100%;
+}
+
+.rubrics .box .tres {
+  flex: 25%;
+  background-image: url(images/p3.jpg);
+  background-size: 100%;
+  margin: 0 15px 0 15px;
+  background-repeat: no-repeat;
+  max-width: 25%;
+  max-height: 100%;
+}
+
+.rubrics .box .quatro {
+  flex: 25%;
+  margin: 0;
+  background-image: url(images/p4.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+  max-width: 25%;
+  max-height: 100%;
+}
+
+.rubrics .box .uno:hover p {
+  margin-top: 160%;
+}
+
+.rubrics .box .dos:hover p {
+  margin-top: 160%;
+}
+
+.rubrics .box .tres:hover p {
+  margin-top: 160%;
+}
+
+.rubrics .box .quatro:hover p {
+  margin-top: 160%;
+}
+
+.rubrics .box .uno:hover h2 {
+  letter-spacing: 5px;
+}
+
+.rubrics .box .dos:hover h2 {
+  letter-spacing: 5px;
+}
+
+.rubrics .box .tres:hover h2 {
+  letter-spacing: 2px;
+}
+
+.rubrics .box .quatro:hover h2 {
+  letter-spacing: 5px;
+}
+
+.rubrics .box h2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.247);
+  transition: all 2s;
+  font-weight: 400;
+}
+
+.rubrics .box p {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  transition: all 1s;
+  margin-top: 170%;
+  padding-top: 10px;
+  height: 22%;
+  background-color: rgba(0, 0, 0, 0.507);
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+.dos {
+  background-image: url(images/yellow_black_ducati_scrambler_motorcycle_hd_bike-2560x1440.jpg);
+  background-color: rgba(0, 0, 0, 0.651);
+}
+
+.nav-two .nav-bar {
+  width: 100%;
+  height: 5%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  background-color: #00000071;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.nav-two .nav-bar li {
+  float: left;
+  padding-left: 5%;
+}
+
+.contact {
+  padding-left: 780%;
+}
+
+.nav-two .nav-bar ul {
+  list-style-type: none;
+}
+
+.nav-two .nav-bar li a {
+  text-decoration: none;
+  font-size: 150%;
+  color: white;
+}
+
+.nav-two .nav-bar li a:hover {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
